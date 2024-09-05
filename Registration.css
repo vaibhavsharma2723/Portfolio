@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(156, 78, 245);
+}
+
+h1{
+    color: rgb(255, 195, 85);
+}
+
+.leftSection{
+    margin-left: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 13px;
+    margin-bottom: 30px;
+}
+
+nav .info{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+ul li{
+    list-style-type: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.Myform{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    /* background-color: chocolate; */
+}
+
+.para{
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+section .Myform .username{
+    padding: 30px;
+}
+section .Myform .email{
+    padding: 30px;
+    padding-top: 10px;
+}
+
+section .Myform .label_email{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
