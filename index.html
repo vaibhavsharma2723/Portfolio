@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
-    <link rel="stylesheet" href="Registration.css">
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
-<body>
-    <nav>
-        <div class="leftSection">
-            <h1>Vaibhav Portfolio</h1>
-        </div>
-        <div class="rightSection">
-            <ul class="info">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <main>
-        <section>
-            <h2>Welcome Back!</h2>
-            <form>
-                <div class="Myform">
-                    <p class="para">Registration Form</p>
-                    <div class="username">
-                        <label class="name" for="username">UserName</label>
-                    <input id="username" type="text" placeholder="Your UserName">
-                    </div>
-                    <div class="email">
-                        <label class="label_email" for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <div class="btn">
-                        <input type="button" value="Submit" class="btu">
-                    </div>
+<body>
+    <header> <!--start a header -->
+        <nav>
+            <div class="nav_main">
+                <img class="logo" src="LogoMy.jpg" alt="Mylogo">
+                <div class="nav_profile">
+                    <h1>Portfolio</h1>
                 </div>
-            </form>
-        </section>
-    </main>
+                <div class="menu_navbar">
+                    <a href="portfolio.html">Home</a>
+                    <a href=".about">About</a>
+                    <a href="">Skills</a>
+                    <a href="">Education</a>
+                    <a href="">Work</a>
+                    <a href="">Experience</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="main_section">
+            <div class="pg_name">
+                <p class="hey">Hey</p>  
+                <p class="topname">I'm Vaibhav Sharma</p>
+                <p class="job_doing">I am a <span id="job" class="jobs"></span><span class="pointer">|</span></p>
+                <p class="intro">I focus on developing user-friendly web applications that meet the client's </p>
+            </div>
+
+            <div class="pg_name_right">
+                <img src="project1.png" alt="My Personal Photo" class="photo">
+            </div>
+        </div>
+        <div class="about">
+            <h2>About</h2>
+        </div>
+    </section>
+    <script src="./portfolio.js"></script>
 </body>
+
 </html>
